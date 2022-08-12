@@ -1,0 +1,69 @@
+/* this css is made to make adjustments to the contact us page */
+/* this includes the placement for a textbox for feedback */
+
+/* for this page, the page is split to a 50-50 grid, 1 for the paragraph and 1 for the feedback box */
+
+/* to control article width */
+.locP p{
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 0;
+    display: grid;
+}
+
+.info img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* to control feedback box */
+form{
+    box-sizing: border-box;
+    padding: 2em;
+    width: 50%;
+    display: grid;
+    float: right;
+    margin-right: 0%;
+    clear: both;
+}
+
+fieldset{
+    width: 67%;
+}
+
+label{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.feedback div{
+    width: 30%;
+}
+
+.feedbackbuttons div{
+    width: auto;
+}
+
+.feedbackbuttons{
+    padding: 5px;
+}
+
+.feedbackbuttons input{
+    padding: 3px;
+    background-color: rgba(187, 250, 187, 0.61);
+}
+
+.feedbackbuttons input:hover{
+    background-color: rgb(149, 245, 245);
+}
+
+div > textarea{
+    width: 330%;
+}
+
+textarea{
+    resize: none;
+    width: auto;
+}

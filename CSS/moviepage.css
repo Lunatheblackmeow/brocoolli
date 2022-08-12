@@ -1,0 +1,137 @@
+/* this CSS is made specially for the index page as it contains movie posters and requires some special placements*/
+
+/* this is to set the background color*/
+body {
+    background-color: #f1f0f7c7;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/*this is to set the logo size*/
+.logo {
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/*this is to set the font type and colours for the webpage */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*this is to style the nav bar */
+.navbar{
+    border: 1px solid #4d4dff;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width: 100%;
+}
+
+.nbcontents li{
+    color: #18487e;
+    display: inline;
+    padding: 10px;
+    text-align:center;
+    list-style-type: none;
+    font-size: 20px;
+}
+/* this css controls the footer */
+.footer img{
+    width: 15%;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: auto;
+}
+
+.footercontact{
+    font-size: larger;
+    font-weight: bold;
+    text-align: right;
+    text-align: center;
+}
+
+.footer{
+    background-color: #f8f5ef;
+    width: 100%;
+}
+
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+    border: #18487e 1px solid;
+    border-left: none;
+    border-right: none;
+}
+
+.footer li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+/* this is to control the size of the movie poster */
+.movieposter img{
+    width: 40%;
+    padding: 10px;
+    display: block;
+}
+
+/* this is to control the alignment of text, font size, etc of movie title description */
+.movieposter{
+    display: flex;
+}
+
+.description{
+    text-align:left;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+/* adjust header 1 size */
+h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* css to adjust the button position, colour, etc */
+.booknow{
+    display: inline-block;
+    background-color: #EA1313;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+/* to change ahref colors */
+a:link, a:visited{
+    color: #4d4dff;
+}
+
+a:hover, a:active{
+    color: rgba(106, 97, 241, 0.623);
+}

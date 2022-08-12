@@ -1,0 +1,121 @@
+<!--Logo made with images from canvas.com but photoshopped by self-->
+<!--footer made with images from canvas.com but photoshopped by self-->
+<!--map from google maps-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="hot potato cinematics, cinema, movies">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- Import Javascript Files -->
+    <!-- jQuery.js first, then Popper.js, then Bootstrap.js -->
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/HOT.png" alt="HOT!" style="width:50% ;"></a>
+        </div>
+        <nav class="nav navbar-expand-lg">
+            <ul class="navbar">
+                <li class="nav-link"><a href="aboutus.html" class="nav-link">ABOUT</a></li>
+                <li class="nav-link"><a href="locations.html" class="nav-link">CONTACT US</a></li>
+                <li class="nav-link"><a href="promotions.html" class="nav-link">PROMOTIONS</a></li>
+                <li class="nav-link"><a href="experience.html" class="nav-link">EXPERIENCE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="info">
+        <h1 style="font-weight:bold ;">Contact Us</h1>
+        <img src="images/location.png" alt="map" style="width:50% ;">
+        <form>
+            <form action="myserver.php" method="post">
+
+                <!--- Name: Select/Option -->
+                <div class="row w-50">
+        
+                    <div class="col-md-3">
+                        <label for="nameID">Name:</label>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <select class="custom-select" name="salutation">
+                            <option selected>Mr</option>
+                            <option>Mrs</option>
+                            <option>Ms</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="myTextboxID" name="myText">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Feedback</label>
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" cols="110"rows="4" resize="none"></textarea>
+                      </div>
+                </div> 
+        <!-- Submit/Reset Button -->
+        <div class="row">
+
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+                <input type="submit" class="btn btn-primary">
+                <input type="reset" class="btn btn-primary">
+            </div>
+
+        </div>        
+        </form>
+        
+        <div class="col-md-6" style="text-align:right ;">
+        <p>
+            <b>HOT POTATO CINEMATICS</b><br>
+            81 Clemenceau Ave, Level 4 <br> 
+            Singapore 239917
+        </p>
+        <p>
+            <b>HOW TO GET HERE BY PUBLIC TRANSPORT</b> <br>
+            Nearest MRT : Fort Canning Station <br>
+            Bus Services : 32, 54, 139, 195, 64, 123, 143
+        </p>
+        <p>
+            <b>PARKING</b> <br>
+            Avaliable at UE Square
+        </p>
+        <p>
+            <b>&#9742;</b> +65 6772 1890
+        </p>
+        <p>
+            <b>&#9993;</b> hotpotatoes@gmail.com
+        </p>
+        </div>
+        
+
+
+
+    </article>
+    <footer>
+        <div class="footer">
+            <div class="footerimage">
+                <img src="images/Potato logo1.png" alt="" style="width:10%;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="termsofservices.html">Terms of Service</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="footercontact">
+            Hot Potato Cinematics &#9728; &#9742; +65 6772 1890 &#9728; &#9993; hotpotatoes@gmail.com
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
